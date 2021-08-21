@@ -2,10 +2,13 @@ import { PagesModule } from './pages/pages.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AuthModule } from './auth/auth.module';
+import { ComponentsModule } from './components/components.module';
 
 import { AppComponent } from './app.component';
 import { NopagesfoundComponent } from './pages/nopagesfound/nopagesfound.component';
+
 
 
 
@@ -18,7 +21,8 @@ import { NopagesfoundComponent } from './pages/nopagesfound/nopagesfound.compone
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    ComponentsModule
   ],
   bootstrap: [AppComponent]
 })
