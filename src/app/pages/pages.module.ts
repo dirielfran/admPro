@@ -11,6 +11,8 @@ import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SharedModule } from '../shared/shared.module';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromesaComponent } from './promesas/promesa/promesa.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -20,7 +22,9 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountSettingComponent
+    AccountSettingComponent,
+    PromesaComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
